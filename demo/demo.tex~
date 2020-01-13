@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\begin{document}
+
+\title{Assignment 1}
+\author{First Name and Last Name}
+
+\maketitle
+
+\section{Introduction}
+
+Introduction here.
+
+\section{Method}
+
+Description method here.
+
+\section{Experimental results}
+
+Some results are shown in Table~\ref{table_ref}. These were generated using WEKA~\cite{weka_book}.
+
+\begin{table}[h]
+\footnotesize
+\center
+\begin{tabular}{|c|c|c|}
+\hline
+one column & another column & yet another column\\
+one column & another column & yet another column\\
+\hline
+\end{tabular}
+\caption{My table}
+\label{table_ref}
+\end{table}
+
+\section{Conclusions}
+
+Some conclusions here.
+
+\bibliographystyle{plain}
+\bibliography{demo}
+
+\end{document}
